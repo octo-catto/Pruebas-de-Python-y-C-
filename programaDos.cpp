@@ -8,8 +8,7 @@ int main()
     T = clock();
     for (int i = 0; i < 1000000000; i++)
     {
-        printf("%d \n", A);
-        A = 3*A;
+        A += 1;
     }
     T = clock() - T;
     printf("El programa dos se ejecutó en: %f segundos. \n", (float)T/CLOCKS_PER_SEC);

@@ -1,2 +1,1 @@
-# Pruebas-de-Python-y-C-
-Código fuente.
+# Código fuente para pruebas de velocidad entre Python y C++

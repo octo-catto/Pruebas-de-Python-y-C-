@@ -4,4 +4,4 @@ for i in range(1000):
     with open('archivo.txt', 'a') as f:
         f.write(str(i) + '\n')
 fin = time.time()
-print('%.3f' % float(fin-inicio))
+print('%.6f' % float(fin-inicio))

@@ -11,6 +11,6 @@ int main()
         A = 1;
     }
     T = clock() - T;
-    printf("El programa uno se ejecutó en: %.3f segundos. \n", (float)T/CLOCKS_PER_SEC);
+    printf("El programa uno se ejecutó en: %.6f segundos. \n", (float)T/CLOCKS_PER_SEC);
     return 0;
 }

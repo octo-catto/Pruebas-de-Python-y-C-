@@ -17,6 +17,6 @@ int main()
         archivoTexto.close();
     }
     T = clock() - T;
-    printf("El programa tres se ejecutó en: %f segundos. \n", (float)T/CLOCKS_PER_SEC);
+    printf("El programa tres se ejecutó en: %.3f segundos. \n", (float)T/CLOCKS_PER_SEC);
     return 0;
 }

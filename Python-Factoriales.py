@@ -19,6 +19,6 @@ factorial = 1
 for i in range(1, n):
     factorial = factorial * i
 fin = time.time()
-print('%.3f' % float(fin-inicio))
+print('%.6f' % float(fin-inicio))
    
 

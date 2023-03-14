@@ -1,34 +1,24 @@
 import time
 
-# Factorial de 10
-n = 10
-start_time = time.time()
-factorial = 1
-for i in range(1, n+1):
-    factorial = factorial * i
-end_time = time.time()
-print("El factorial de", n, "es:", factorial)
-print("Tiempo de ejecucion:", end_time - start_time, "segundos")
-
-
 # Factorial de 100
 n = 100
-start_time = time.time()
+inicio = time.time()
 factorial = 1
-for i in range(1, n+1):
+for i in range(1, n):
     factorial = factorial * i
-end_time = time.time()
-print("El factorial de", n, "es:", factorial)
-print("Tiempo de ejecucion:", end_time - start_time, "segundos")
 
-# Factorial de 200
-n = 200
-start_time = time.time()
+# Factorial de 1000
+n = 1000
 factorial = 1
-for i in range(1, n+1):
+for i in range(1, n):
     factorial = factorial * i
-end_time = time.time()
-print("El factorial de", n, "es:", factorial)
-print("Tiempo de ejecucion:", end_time - start_time, "segundos")
+
+# Factorial de 2000
+n = 2000
+factorial = 1
+for i in range(1, n):
+    factorial = factorial * i
+fin = time.time()
+print('%.3f' % float(fin-inicio))
    
 

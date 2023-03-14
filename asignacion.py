@@ -1,9 +1,7 @@
 import time
 inicio = time.time()
-for i in range(1, 1000000):
-    var_name = "A" + str(i)
-    exec(var_name + " = 1")
-    print(var_name)
-    fin = time.time()
-print(fin-inicio)
+for i in range(1, 1000000000):
+    A = 1
+fin = time.time()
+print('%.3f' % float(fin-inicio))
 
